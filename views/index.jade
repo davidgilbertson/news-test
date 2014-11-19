@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+  head
+    title News Weather App
+    link(rel='stylesheet', href='/styles/main.css')
+  body
+    header.nw-header
+      h1 News Weather App
+    main
+      div.nw-wrapper
+        div.nw-weather-btns
+          a.nw-btn(href='/weather/sydney') Forecast for Sydney
+          a.nw-btn(href='/weather/brisbane') Forecast for Brisbane
+          a.nw-btn(href='/weather/sydney/tuesday') /weather/sydney/tuesday
+          a.nw-btn(href='/weather/sydney/today') /weather/sydney/today
+          //- button#nw-get-syd-today.nw-btn See the weather for Sydney, today
+          //- button.nw-btn See the weather for Brisbane, right now
+        h2=data.title
+        table.nw-table
+          tr
+            td Location
+            td=data.location
+          tr
+            td Date
+            td=data.date
+          tr
+            td Temp
+            td=data.temp + '°C'
+          tr
+            td Summary
+            td=data.summary
+
+
+    script(src='/scripts/main.js')

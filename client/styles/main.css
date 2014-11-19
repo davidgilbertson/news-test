@@ -1,0 +1,33 @@
+body {
+  padding: 20px;
+  margin: 0;
+  color: #333;
+  font-size: 16px;
+  font-family: helvetica, arial, san-serif;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+.nw-weather-btns {
+  margin-bottom: 40px;
+}
+.nw-btn {
+  display: block;
+  border: none;
+  margin: 5px 0;
+  padding: 10px 15px;
+  font-size: 16px;
+  background: steelblue;
+  color: white;
+  text-decoration: none;
+}
+.nw-btn:hover {
+  text-decoration: underline;
+}
+.nw-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.nw-table td {
+  padding: 5px;
+  border: 1px solid #ddd;
+}
