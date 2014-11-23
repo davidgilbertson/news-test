@@ -1,4 +1,4 @@
-//Using 'comma before' style. Not for everyone, I would follow whatever the project styleguide says.
+//Using 'comma before' style. Not for everyone, I would follow the project styleguide.
 var path = require('path')
   , express = require('express')
   , app = express()
